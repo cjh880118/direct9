@@ -134,7 +134,6 @@ void cGrid::Setup(int nNumHalfTile, float fInterval)
 void cGrid::Render()
 {
 	g_pD3DDevice->SetRenderState(D3DRS_LIGHTING, false); // << : 13.
-
 	D3DXMATRIXA16 matI;
 	D3DXMatrixIdentity(&matI);
 	g_pD3DDevice->SetTransform(D3DTS_WORLD, &matI);
@@ -143,13 +142,13 @@ void cGrid::Render()
 	g_pD3DDevice->SetStreamSource(0, m_pVB, 0, sizeof(ST_PC_VERTEX));
 	g_pD3DDevice->DrawPrimitive(D3DPT_LINELIST, 0, m_nNumTri);
 	
-	
+	/*
 	g_pD3DDevice->DrawPrimitiveUP(D3DPT_LINELIST,
 		m_vecVertex.size() / 2,
 		&m_vecVertex[0],
 		sizeof(ST_PT_VERTEX));
 	
-
+	*/
 	
 	for each(auto p in m_vecPyramid)
 	{

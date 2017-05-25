@@ -87,7 +87,7 @@ cMainGame::~cMainGame()
 
 void cMainGame::Setup()
 {
-	SetUp_UI();
+	//SetUp_UI();
 	/*
 	{
 		D3DXCreateTextureFromFile(g_pD3DDevice, "srccodetex.png", &m_pTexture); 
@@ -120,7 +120,7 @@ void cMainGame::Setup()
 		
 	}
 	*/
-	SetUp_HeightMap();
+	//SetUp_HeightMap();
 	//loadObj.Load(m_vecGroup, "obj", "map.obj");
 
 	//Load_Surface();
@@ -153,7 +153,8 @@ void cMainGame::Update()
 {
 	//if (m_pCubeMan)	m_pCubeMan->Update(m_pMap); 
 	if (m_pCamera) m_pCamera->Update();	
-	if (m_pWoman) m_pWoman->Update(m_pMap);
+	if (m_pWoman) m_pWoman->Update(NULL);
+	//if (m_pWoman) m_pWoman->Update(m_pMap);
 
 	if (m_pUIRoot) m_pUIRoot->Update();
 	//if (m_pRootFrame) m_pRootFrame->Update(m_pRootFrame->GetKeyFrame(), NULL);
@@ -188,13 +189,13 @@ void cMainGame::Render()
 	
 	//PickingObj_Render();
 	
-	
+	/*
 	if (m_pMap) {
 		m_pMap->Render();
 	}
-	
+	*/
 
-	UI_Render();
+	//UI_Render();
 	//Obj_Render(); // << : 
 	
 //	Text_Render();
@@ -305,7 +306,7 @@ void cMainGame::Load_Surface()
 	D3DXMatrixTranslation(&matT, 5, 0, 5);
 	matWorld = matS * matR * matT;
 
-	//m_pMap = new cObjMap("obj", "map_surface.obj", &matWorld);
+	m_pMap = new cObjMap("obj", "map_surface.obj", &matWorld);
 	
 }
 
