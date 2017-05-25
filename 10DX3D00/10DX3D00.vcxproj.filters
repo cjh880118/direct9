@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CubeMan">
+      <UniqueIdentifier>{4eb0e5b9-8737-46ba-9e79-59bc0bcc3ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjLoader">
+      <UniqueIdentifier>{49d4f53f-f4eb-44ec-8a0f-4ff33193cf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASELoader">
+      <UniqueIdentifier>{13307989-2790-41cc-bc96-f849e145e9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{02b7f3cc-0395-4dbf-83e6-b3ad0d2f5c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{1aa43e50-3228-456a-9811-80c7d410bbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Woman">
+      <UniqueIdentifier>{b97c3673-4874-4a96-a60d-6587dbb90a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{4308209a-5695-499e-870d-e50a450a91d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeightMap">
+      <UniqueIdentifier>{b42650bb-663f-44ad-be8d-b877c9ef135d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{103320c6-3a18-4721-bfae-fb7f69c8fb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="10DX3D00.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubePC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cPyramid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cBody.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cHead.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftLeg.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cLeftArm.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightArm.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cRightLeg.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubePNT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMtlTex.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjLoader.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cGroup.h">
+      <Filter>ObjLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Asciitok.h">
+      <Filter>ASELoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoader.h">
+      <Filter>ASELoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cDeviceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cCubeMan.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cCharacter.h">
+      <Filter>CubeMan</Filter>
+    </ClInclude>
+    <ClInclude Include="cFrame.h">
+      <Filter>ASELoader</Filter>
+    </ClInclude>
+    <ClInclude Include="cWoman.h">
+      <Filter>Woman</Filter>
+    </ClInclude>
+    <ClInclude Include="cRay.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="cHeightMap.h">
+      <Filter>HeightMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIObject.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIImageView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIButton.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cUITextView.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cFontManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="10DX3D00.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cGrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubePC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cPyramid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cBody.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cHead.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftArm.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cLeftLeg.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightArm.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cRightLeg.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubePNT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMtlTex.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjLoader.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cGroup.cpp">
+      <Filter>ObjLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoader.cpp">
+      <Filter>ASELoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cDeviceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="iMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cCharacter.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cCubeMan.cpp">
+      <Filter>CubeMan</Filter>
+    </ClCompile>
+    <ClCompile Include="cFrame.cpp">
+      <Filter>ASELoader</Filter>
+    </ClCompile>
+    <ClCompile Include="cWoman.cpp">
+      <Filter>Woman</Filter>
+    </ClCompile>
+    <ClCompile Include="cRay.cpp">
+      <Filter>Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="cHeightMap.cpp">
+      <Filter>HeightMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIObject.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIButton.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIImageView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cUITextView.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cFontManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="10DX3D00.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="10DX3D00.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+﻿  stdafx.cpp
+c:\users\jhchoi\documents\visual studio 2015\projects\dx3d00_device_05_22\10dx3d00\stdafx.h(30): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
