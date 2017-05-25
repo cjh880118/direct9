@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "cFrame.h"
 //>>테스트
-
+//>>한줄추가
 cFrame::cFrame()
 	:m_pMtlTex(NULL)
 	,m_nNumTri(0)
