@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "cFrame.h"
-
+//>>Å×½ºÆ®
 
 cFrame::cFrame()
 	:m_pMtlTex(NULL)

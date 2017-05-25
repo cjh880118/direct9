@@ -2,6 +2,7 @@
 #include "cObject.h"
 #include "cMtlTex.h"
 
+//>Å×½ºÆ®
 class cFrame :
 	public cObject
 {
